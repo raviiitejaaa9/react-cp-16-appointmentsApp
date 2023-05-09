@@ -1,0 +1,114 @@
+/* Write your CSS here */
+
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+.app-container {
+  background-image: linear-gradient(to Bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 85%;
+  height: 90%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form-image-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%;
+  width: 50%;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  width: 256px;
+  height: 26px;
+  outline: none;
+  border-radius: 3px;
+  border: 0.5px solid black;
+  padding: 10px;
+}
+
+.date-sec {
+  width: 256px;
+  height: 32px;
+  outline: none;
+  border-radius: 3px;
+  border: 0.5px solid black;
+  padding: 10px;
+}
+
+.date-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 60px;
+  background-color: #8b5cf6;
+  border: none;
+  border-radius: 5px;
+  height: 28px;
+}
+
+.line-break {
+  height: 2px;
+  background-color: black;
+  width: 100%;
+  border: none;
+}
+
+.starred-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.starred-btn {
+  border: 1px #8b5cf6 solid;
+  cursor: pointer;
+  outline: none;
+  border-radius: 6px;
+  width: 80px;
+  height: 26px;
+}
+
+.starred-btn-decoration {
+  background-color: #8b5cf6;
+}
+
+.appointments-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
